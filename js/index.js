@@ -151,12 +151,12 @@ const tl = (obj) => obj && obj[LANG] ? obj[LANG] : obj && obj['pt'] ? obj['pt'] 
 ═══════════════════════════════════════════════ */
 function buildInitialNetwork() {
   return [
-    { id:'irma',     name:'Irmã',    country:'🇺🇸 EUA',    pv:30000, sponsorId:null,   leg:null,    color:'#8b5cf6', isYou:false, isPermanent:true },
-    { id:'mae',      name:'Mãe',     country:'🇺🇸 EUA',    pv:15000, sponsorId:'irma',  leg:'left',  color:'#ec4899', isYou:false, isPermanent:true },
-    { id:'irmao',    name:'Irmão',   country:'🇭🇹 Haiti',  pv:15000, sponsorId:'irma',  leg:'right', color:'#0ea5e9', isYou:false, isPermanent:true },
+    { id:'irma',     name:'Soeur',    country:'🇺🇸 EUA',    pv:30000, sponsorId:null,   leg:null,    color:'#8b5cf6', isYou:false, isPermanent:true },
+    { id:'mae',      name:'Maman',     country:'🇺🇸 EUA',    pv:15000, sponsorId:'irma',  leg:'left',  color:'#ec4899', isYou:false, isPermanent:true },
+    { id:'irmao',    name:'Frère',   country:'🇭🇹 Haiti',  pv:15000, sponsorId:'irma',  leg:'right', color:'#0ea5e9', isYou:false, isPermanent:true },
     { id:'handy',    name:'Handy',   country:'🇧🇷 Brasil', pv:20000, sponsorId:'irmao', leg:'left',  color:'#10b981', isYou:true,  isPermanent:true },
-    { id:'primo_br', name:'Primo BR',country:'🇧🇷 Brasil', pv:10000, sponsorId:'handy', leg:'left',  color:'#f59e0b', isYou:false, isPermanent:false },
-    { id:'primo_eua',name:'Primo EUA',country:'🇺🇸 EUA',  pv:10000, sponsorId:'handy', leg:'right', color:'#f59e0b', isYou:false, isPermanent:false },
+    { id:'primo_br', name:'Cousin BR',country:'🇧🇷 Brasil', pv:10000, sponsorId:'handy', leg:'left',  color:'#f59e0b', isYou:false, isPermanent:false },
+    { id:'primo_eua',name:'Cousin EUA',country:'🇺🇸 EUA',  pv:10000, sponsorId:'handy', leg:'right', color:'#f59e0b', isYou:false, isPermanent:false },
   ];
 }
 
