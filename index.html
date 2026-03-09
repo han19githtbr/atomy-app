@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Atomy — Simulador de Rede / Network Simulator</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<div id="loader"><div class="loader-ring"></div></div>
+
+<!-- LANG BAR -->
+<div class="lang-bar">
+  <button class="lang-btn active" data-lang="pt"><span>🇧🇷</span> PT</button>
+  <button class="lang-btn"        data-lang="fr"><span>🇫🇷</span> FR</button>
+  <button class="lang-btn"        data-lang="en"><span>🇺🇸</span> EN</button>
+</div>
+
+<!-- HEADER -->
+<header id="top">
+  <div class="header-bg"></div>
+  <div class="header-grid"></div>
+  <div class="badge" id="hdr-badge"></div>
+  <h1 id="hdr-title"></h1>
+  <p class="subtitle" id="hdr-subtitle"></p>
+  <div class="header-stats" id="header-stats"></div>
+</header>
+
+<!-- NAV -->
+<nav><div class="nav-inner" id="nav-inner"></div></nav>
+
+<main>
+
+  <!-- ══ EMPRESA ══ -->
+  <section id="empresa">
+    <div class="section-header">
+      <div class="section-label" id="lbl-empresa"></div>
+      <h2 class="section-title" id="ttl-empresa"></h2>
+    </div>
+    <div class="empresa-grid" id="empresa-grid"></div>
+  </section>
+
+  <!-- ══ DIFERENCIAIS ══ -->
+  <section id="diferenciais">
+    <div class="section-header">
+      <div class="section-label" id="lbl-diferenciais"></div>
+      <h2 class="section-title" id="ttl-diferenciais"></h2>
+      <p class="section-desc" id="desc-diferenciais"></p>
+    </div>
+    <div class="diff-grid" id="diff-grid"></div>
+  </section>
+
+  <!-- ══ PASSOS ══ -->
+  <section id="passos">
+    <div class="section-header">
+      <div class="section-label" id="lbl-passos"></div>
+      <h2 class="section-title" id="ttl-passos"></h2>
+      <p class="section-desc" id="desc-passos"></p>
+    </div>
+    <div class="steps-container" id="steps-container"></div>
+  </section>
+
+  <!-- ══ PONTOS ══ -->
+  <section id="pontos">
+    <div class="section-header">
+      <div class="section-label" id="lbl-pontos"></div>
+      <h2 class="section-title" id="ttl-pontos"></h2>
+      <p class="section-desc" id="desc-pontos"></p>
+    </div>
+    <div class="pontos-grid" id="pontos-grid"></div>
+  </section>
+
+  <!-- ══ NÍVEIS ══ -->
+  <section id="niveis">
+    <div class="section-header">
+      <div class="section-label" id="lbl-niveis"></div>
+      <h2 class="section-title" id="ttl-niveis"></h2>
+      <p class="section-desc" id="desc-niveis"></p>
+    </div>
+    <div class="niveis-list" id="niveis-list"></div>
+  </section>
+
+  <!-- ══ MAESTRIAS ══ -->
+  <section id="maestrias">
+    <div class="section-header">
+      <div class="section-label" id="lbl-maestrias"></div>
+      <h2 class="section-title" id="ttl-maestrias"></h2>
+      <p class="section-desc" id="desc-maestrias"></p>
+    </div>
+    <div class="maestrias-grid" id="maestrias-grid"></div>
+  </section>
+
+  <!-- ══ COMISSÕES ══ -->
+  <section id="comissoes">
+    <div class="section-header">
+      <div class="section-label" id="lbl-comissoes"></div>
+      <h2 class="section-title" id="ttl-comissoes"></h2>
+    </div>
+    <div class="comissoes-grid" id="comissoes-grid"></div>
+  </section>
+
+  <!-- ══ SIMULADOR ══ -->
+  <section id="simulador">
+    <div class="section-header">
+      <div class="section-label" id="lbl-simulador"></div>
+      <h2 class="section-title" id="ttl-simulador"></h2>
+      <p class="section-desc" id="desc-simulador"></p>
+    </div>
+    <div class="sim-layout">
+
+      <!-- LEFT PANEL -->
+      <div class="sim-panel">
+        <div>
+          <div class="sim-panel-title" id="sim-view-as-label"></div>
+          <div class="sim-panel-sub" id="sim-view-as-sub"></div>
+        </div>
+
+        <!-- Perspective selector -->
+        <div>
+          <div class="persp-label" id="sim-persp-label"></div>
+          <select class="persp-select" id="persp-select"></select>
+        </div>
+
+        <hr class="sim-divider"/>
+
+        <!-- Earnings display -->
+        <div class="earnings-panel" id="earnings-panel" style="padding:0;background:transparent;border:none;"></div>
+
+        <hr class="sim-divider"/>
+
+        <!-- PV per purchase slider -->
+        <div class="pv-slider-wrap">
+          <div class="pv-slider-header">
+            <span class="persp-label" id="sim-pv-label"></span>
+            <span class="pv-val" id="pv-display">10.000 PV</span>
+          </div>
+          <input type="range" class="pv-slider" id="pv-slider" min="10000" max="500000" step="10000" value="10000"/>
+        </div>
+
+        <hr class="sim-divider"/>
+
+        <!-- Add Member Form -->
+        <div>
+          <div class="sim-panel-title" id="sim-add-title"></div>
+          <div class="add-form" style="margin-top:12px;">
+            <input  class="sim-input"  id="inp-name"    type="text" placeholder="Nome"/>
+            <div class="form-row">
+              <input class="sim-input" id="inp-country" type="text" placeholder="🇧🇷 País"/>
+              <input class="sim-input" id="inp-pv"      type="number" placeholder="PV (ex: 10000)" value="10000"/>
+            </div>
+            <div class="form-row">
+              <select class="sim-select" id="inp-sponsor"></select>
+              <select class="sim-select" id="inp-leg">
+                <option value="left"  id="opt-left">← Esq.</option>
+                <option value="right" id="opt-right">Dir. →</option>
+              </select>
+            </div>
+            <button class="sim-btn" id="btn-add-member">＋ <span id="btn-add-label"></span></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: TREE + LIST -->
+      <div class="tree-section">
+
+        <!-- Toolbar -->
+        <div class="tree-toolbar">
+          <div class="tree-toolbar-left">
+            <div class="tree-legend"><div class="legend-dot" style="background:var(--green)"></div><span id="leg-you"></span></div>
+            <div class="tree-legend"><div class="legend-dot" style="background:var(--accent2)"></div><span id="leg-active"></span></div>
+            <div class="tree-legend"><div class="legend-dot" style="background:var(--text3);border:1px dashed var(--text3);border-radius:50%"></div><span id="leg-future"></span></div>
+          </div>
+          <button class="sim-btn" id="btn-reset" style="width:auto;padding:8px 16px;font-size:.78rem;background:var(--bg4);color:var(--text2);border:1px solid var(--border2);">↺ <span id="btn-reset-label"></span></button>
+        </div>
+
+        <!-- SVG Tree -->
+        <div class="tree-svg-wrap" id="tree-svg-wrap">
+          <svg id="network-tree" xmlns="http://www.w3.org/2000/svg"></svg>
+        </div>
+
+        <!-- Members list -->
+        <div>
+          <div class="sim-panel-title" style="margin-bottom:12px;" id="members-list-title"></div>
+          <div class="members-list" id="members-list"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ PRODUTOS ══ -->
+  <section id="produtos">
+    <div class="section-header">
+      <div class="section-label" id="lbl-produtos"></div>
+      <h2 class="section-title" id="ttl-produtos"></h2>
+      <p class="section-desc" id="desc-produtos"></p>
+    </div>
+    <div class="produtos-grid" id="produtos-grid"></div>
+  </section>
+
+</main>
+
+<footer id="footer-text"></footer>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+<script src="js/index.js"></script>
+
+</body>
+</html>

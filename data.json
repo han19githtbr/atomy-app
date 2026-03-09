@@ -1,0 +1,396 @@
+{
+  "ui": {
+    "pt": {
+      "navItems": [
+        { "id": "top",         "label": "🏠 Início" },
+        { "id": "empresa",     "label": "🏢 Empresa" },
+        { "id": "diferenciais","label": "✨ Diferenciais" },
+        { "id": "passos",      "label": "📋 Passo a Passo" },
+        { "id": "pontos",      "label": "📊 Sistema PV" },
+        { "id": "niveis",      "label": "🏆 Níveis" },
+        { "id": "maestrias",   "label": "👑 Maestrias" },
+        { "id": "comissoes",   "label": "💰 Comissões" },
+        { "id": "familia",     "label": "👨‍👩‍👧‍👦 Sua Família" },
+        { "id": "produtos",    "label": "🛍️ Produtos" }
+      ],
+      "header": {
+        "badge": "Guia Completo · Sua Família na Rede",
+        "title": "Atomy: <span>Ganhe com a sua rede</span>",
+        "subtitle": "Tudo o que você precisa saber para entrar, crescer e lucrar na maior rede de consumo inteligente do mundo."
+      },
+      "sections": {
+        "empresa":      { "label": "Sobre a empresa",      "title": "O que é a <span>Atomy?</span>", "desc": "" },
+        "diferenciais": { "label": "Por que a Atomy?",     "title": "Diferenciais que <span>fazem diferença</span>", "desc": "A Atomy quebra as barreiras dos MLMs tradicionais com um modelo acessível e transparente." },
+        "passos":       { "label": "Como começar",         "title": "Passo a passo <span>para entrar</span>", "desc": "Da inscrição às primeiras comissões — o caminho completo explicado." },
+        "pontos":       { "label": "Sistema de pontuação", "title": "Entendendo o <span>sistema de PV</span>", "desc": "" },
+        "niveis":       { "label": "Classificações",       "title": "Níveis de <span>classificação</span>", "desc": "Conforme você e sua rede acumulam PV, você avança de nível e aumenta suas comissões." },
+        "maestrias":    { "label": "Títulos de liderança", "title": "Maestrias & <span>grandes ganhos</span>", "desc": "Os títulos de maestria são o motor dos maiores ganhos. Cada título compartilha uma fatia do PV gerado por toda a empresa." },
+        "comissoes":    { "label": "Como você ganha",      "title": "Como as <span>comissões funcionam</span>", "desc": "" },
+        "familia":      { "label": "Sua rede familiar",    "title": "Sua família <span>na Atomy</span>", "desc": "" },
+        "produtos":     { "label": "Catálogo",             "title": "Categorias de <span>produtos</span>", "desc": "Mais de 450 produtos em diversas categorias. Todos com Qualidade Absoluta e Preço Absoluto." }
+      },
+      "stats": [
+        { "label": "Fundação",    "value": "2009" },
+        { "label": "Países",      "value": "50+ países" },
+        { "label": "Faturamento", "value": "US$ 2.2B" },
+        { "label": "Cadastro",    "value": "Gratuito" }
+      ],
+      "empresaInfo": [
+        { "label": "Fundador",    "value": "Han-Gill Park" },
+        { "label": "Fundação",    "value": "2009, Coreia do Sul" },
+        { "label": "Presença",    "value": "Mais de 50 países" },
+        { "label": "Faturamento", "value": "US$ 2.2 bilhões (2021)" },
+        { "label": "Modelo",      "value": "Marketing Multinível (MLM)" },
+        { "label": "Adesão",      "value": "100% Gratuita, sem obrigações" }
+      ],
+      "footer": "Guia criado com base no plano de compensação oficial da <span>Atomy</span>.<br>Os valores estimados são aproximados e variam conforme o desempenho da rede.",
+      "familyFlowNote": "<strong>💡 Como os ganhos fluem:</strong><br>Cada compra feita por qualquer pessoa abaixo de você gera PV grupal nas suas pernas. Sua comissão geral é calculada com base na perna de <em>menor PV</em> no ciclo. Quanto mais equilibradas as pernas, maior o seu ganho!",
+      "leftLeg": "← Perna Esquerda",
+      "rightLeg": "Perna Direita →",
+      "reqLabel": "Requisito",
+      "bonusLabel": "Bônus",
+      "comissaoTagGeral": "Diária / Semanal",
+      "comissaoTagMaestria": "Quinzenal",
+      "freqLabel": "Frequência",
+      "howLabel": "Como funciona",
+      "exLabel": "Exemplo prático",
+      "statusLabels": {
+        "Ativa":        "✅ Ativa",
+        "Em inscrição": "⏳ Inscrevendo",
+        "Em breve":     "🔜 Em breve",
+        "Futuro":       "🔮 Potencial"
+      }
+    },
+    "fr": {
+      "navItems": [
+        { "id": "top",         "label": "🏠 Accueil" },
+        { "id": "empresa",     "label": "🏢 Entreprise" },
+        { "id": "diferenciais","label": "✨ Avantages" },
+        { "id": "passos",      "label": "📋 Étape par Étape" },
+        { "id": "pontos",      "label": "📊 Système PV" },
+        { "id": "niveis",      "label": "🏆 Niveaux" },
+        { "id": "maestrias",   "label": "👑 Maîtrises" },
+        { "id": "comissoes",   "label": "💰 Commissions" },
+        { "id": "familia",     "label": "👨‍👩‍👧‍👦 Votre Famille" },
+        { "id": "produtos",    "label": "🛍️ Produits" }
+      ],
+      "header": {
+        "badge": "Guide Complet · Votre Famille dans le Réseau",
+        "title": "Atomy: <span>Gagnez avec votre réseau</span>",
+        "subtitle": "Tout ce que vous devez savoir pour rejoindre, grandir et gagner de l'argent avec le plus grand réseau de consommation intelligente au monde."
+      },
+      "sections": {
+        "empresa":      { "label": "À propos",              "title": "Qu'est-ce que <span>l'Atomy?</span>", "desc": "" },
+        "diferenciais": { "label": "Pourquoi Atomy?",       "title": "Les avantages qui <span>font la différence</span>", "desc": "Atomy brise les barrières des MLM traditionnels avec un modèle accessible et transparent." },
+        "passos":       { "label": "Comment commencer",     "title": "Étape par étape <span>pour rejoindre</span>", "desc": "De l'inscription aux premières commissions — le chemin complet expliqué." },
+        "pontos":       { "label": "Système de points",     "title": "Comprendre le <span>système PV</span>", "desc": "" },
+        "niveis":       { "label": "Classifications",        "title": "Niveaux de <span>classification</span>", "desc": "Au fur et à mesure que vous accumulez des PV, vous montez en niveau et augmentez vos commissions." },
+        "maestrias":    { "label": "Titres de leadership",  "title": "Maîtrises & <span>grands gains</span>", "desc": "Les titres de maîtrise sont le moteur des plus grands gains. Chaque titre partage une part du PV généré par toute l'entreprise." },
+        "comissoes":    { "label": "Comment vous gagnez",   "title": "Comment les <span>commissions fonctionnent</span>", "desc": "" },
+        "familia":      { "label": "Votre réseau familial", "title": "Votre famille <span>chez Atomy</span>", "desc": "" },
+        "produtos":     { "label": "Catalogue",             "title": "Catégories de <span>produits</span>", "desc": "Plus de 450 produits dans diverses catégories. Tous avec Qualité Absolue et Prix Absolu." }
+      },
+      "stats": [
+        { "label": "Fondation",         "value": "2009" },
+        { "label": "Pays",              "value": "50+ pays" },
+        { "label": "Chiffre d'affaires","value": "US$ 2.2B" },
+        { "label": "Inscription",       "value": "Gratuite" }
+      ],
+      "empresaInfo": [
+        { "label": "Fondateur",  "value": "Han-Gill Park" },
+        { "label": "Fondation",  "value": "2009, Corée du Sud" },
+        { "label": "Présence",   "value": "Plus de 50 pays" },
+        { "label": "C.A.",       "value": "US$ 2.2 milliards (2021)" },
+        { "label": "Modèle",     "value": "Marketing Multi-Niveaux (MLM)" },
+        { "label": "Adhésion",   "value": "100% Gratuite, sans obligations" }
+      ],
+      "footer": "Guide créé sur la base du plan de compensation officiel d'<span>Atomy</span>.<br>Les valeurs estimées sont approximatives et varient selon les performances du réseau.",
+      "familyFlowNote": "<strong>💡 Comment les gains circulent:</strong><br>Chaque achat effectué par toute personne en dessous de vous génère des PV groupaux dans vos branches. Votre commission est calculée sur la base de la branche avec le <em>moins de PV</em>. Plus les branches sont équilibrées, plus vos gains sont importants!",
+      "leftLeg": "← Branche Gauche",
+      "rightLeg": "Branche Droite →",
+      "reqLabel": "Condition requise",
+      "bonusLabel": "Bonus",
+      "comissaoTagGeral": "Quotidien / Hebdomadaire",
+      "comissaoTagMaestria": "Bimensuel",
+      "freqLabel": "Fréquence",
+      "howLabel": "Comment ça marche",
+      "exLabel": "Exemple pratique",
+      "statusLabels": {
+        "Ativa":        "✅ Active",
+        "Em inscrição": "⏳ En cours",
+        "Em breve":     "🔜 Bientôt",
+        "Futuro":       "🔮 Potentiel"
+      }
+    },
+    "en": {
+      "navItems": [
+        { "id": "top",         "label": "🏠 Home" },
+        { "id": "empresa",     "label": "🏢 Company" },
+        { "id": "diferenciais","label": "✨ Advantages" },
+        { "id": "passos",      "label": "📋 Step by Step" },
+        { "id": "pontos",      "label": "📊 PV System" },
+        { "id": "niveis",      "label": "🏆 Levels" },
+        { "id": "maestrias",   "label": "👑 Masterships" },
+        { "id": "comissoes",   "label": "💰 Commissions" },
+        { "id": "familia",     "label": "👨‍👩‍👧‍👦 Your Family" },
+        { "id": "produtos",    "label": "🛍️ Products" }
+      ],
+      "header": {
+        "badge": "Complete Guide · Your Family in the Network",
+        "title": "Atomy: <span>Earn with your network</span>",
+        "subtitle": "Everything you need to know to join, grow and profit in the world's largest smart consumption network."
+      },
+      "sections": {
+        "empresa":      { "label": "About the company",    "title": "What is <span>Atomy?</span>", "desc": "" },
+        "diferenciais": { "label": "Why Atomy?",           "title": "Advantages that <span>make a difference</span>", "desc": "Atomy breaks the barriers of traditional MLMs with an accessible and transparent model." },
+        "passos":       { "label": "How to start",         "title": "Step by step <span>to join</span>", "desc": "From registration to your first commissions — the complete path explained." },
+        "pontos":       { "label": "Point system",         "title": "Understanding the <span>PV system</span>", "desc": "" },
+        "niveis":       { "label": "Classifications",       "title": "Classification <span>levels</span>", "desc": "As you and your network accumulate PV, you advance in level and increase your commissions." },
+        "maestrias":    { "label": "Leadership titles",    "title": "Masterships & <span>big earnings</span>", "desc": "Mastership titles are the engine of the biggest earnings. Each title shares a slice of the PV generated by the entire company." },
+        "comissoes":    { "label": "How you earn",         "title": "How <span>commissions work</span>", "desc": "" },
+        "familia":      { "label": "Your family network",  "title": "Your family <span>at Atomy</span>", "desc": "" },
+        "produtos":     { "label": "Catalog",              "title": "Product <span>categories</span>", "desc": "More than 450 products across various categories. All with Absolute Quality and Absolute Price." }
+      },
+      "stats": [
+        { "label": "Founded",      "value": "2009" },
+        { "label": "Countries",    "value": "50+ countries" },
+        { "label": "Revenue",      "value": "US$ 2.2B" },
+        { "label": "Registration", "value": "Free" }
+      ],
+      "empresaInfo": [
+        { "label": "Founder",    "value": "Han-Gill Park" },
+        { "label": "Founded",    "value": "2009, South Korea" },
+        { "label": "Presence",   "value": "More than 50 countries" },
+        { "label": "Revenue",    "value": "US$ 2.2 billion (2021)" },
+        { "label": "Model",      "value": "Multi-Level Marketing (MLM)" },
+        { "label": "Membership", "value": "100% Free, no obligations" }
+      ],
+      "footer": "Guide created based on the official compensation plan of <span>Atomy</span>.<br>Estimated values are approximate and vary according to network performance.",
+      "familyFlowNote": "<strong>💡 How earnings flow:</strong><br>Every purchase made by anyone below you generates group PV in your legs. Your general commission is calculated based on the leg with the <em>lowest PV</em> in the cycle. The more balanced the legs, the higher your earnings!",
+      "leftLeg": "← Left Leg",
+      "rightLeg": "Right Leg →",
+      "reqLabel": "Requirement",
+      "bonusLabel": "Bonus",
+      "comissaoTagGeral": "Daily / Weekly",
+      "comissaoTagMaestria": "Biweekly",
+      "freqLabel": "Frequency",
+      "howLabel": "How it works",
+      "exLabel": "Practical example",
+      "statusLabels": {
+        "Ativa":        "✅ Active",
+        "Em inscrição": "⏳ Registering",
+        "Em breve":     "🔜 Soon",
+        "Futuro":       "🔮 Potential"
+      }
+    }
+  },
+  "content": {
+    "empresa": {
+      "slogan": { "pt": "Qualidade Absoluta, Preço Absoluto", "fr": "Qualité Absolue, Prix Absolu", "en": "Absolute Quality, Absolute Price" },
+      "descricao": {
+        "pt": "A Atomy é uma empresa de marketing multinível (MLM) sul-coreana fundada em 2009. Atua em mais de 50 países e ocupa o 12º lugar no ranking global das maiores empresas de rede. Seu modelo é baseado em consumo inteligente — os próprios membros consomem e indicam produtos de alta qualidade a preços acessíveis.",
+        "fr": "Atomy est une entreprise sud-coréenne de marketing multi-niveaux (MLM) fondée en 2009. Elle opère dans plus de 50 pays et se classe 12e dans le classement mondial des plus grandes entreprises de réseau. Son modèle est basé sur la consommation intelligente — les membres eux-mêmes consomment et recommandent des produits de haute qualité à des prix accessibles.",
+        "en": "Atomy is a South Korean multi-level marketing (MLM) company founded in 2009. It operates in more than 50 countries and ranks 12th in the global ranking of the largest network companies. Its model is based on smart consumption — members themselves consume and recommend high-quality products at accessible prices."
+      }
+    },
+    "diferenciais": [
+      {
+        "icone": "🆓",
+        "titulo":   { "pt": "Cadastro 100% Gratuito",   "fr": "Inscription 100% Gratuite",    "en": "100% Free Registration" },
+        "descricao":{ "pt": "Sem taxa de adesão, sem investimento inicial. O risco financeiro é zero.", "fr": "Aucun frais d'adhésion, aucun investissement initial. Le risque financier est nul.", "en": "No membership fee, no initial investment. The financial risk is zero." }
+      },
+      {
+        "icone": "🛒",
+        "titulo":   { "pt": "Sem Compra Obrigatória",   "fr": "Aucun Achat Obligatoire",       "en": "No Mandatory Purchase" },
+        "descricao":{ "pt": "Não há fidelidade forçada nem mensalidade mínima. Você compra quando quiser.", "fr": "Pas de fidélité forcée ni de mensualité minimale. Vous achetez quand vous voulez.", "en": "No forced loyalty or minimum monthly fee. You buy whenever you want." }
+      },
+      {
+        "icone": "📦",
+        "titulo":   { "pt": "Sem Estoque",              "fr": "Aucun Stock",                   "en": "No Inventory" },
+        "descricao":{ "pt": "Tudo é vendido online diretamente pela Atomy. Sem necessidade de guardar produtos.", "fr": "Tout est vendu en ligne directement par Atomy. Pas besoin de stocker des produits.", "en": "Everything is sold online directly by Atomy. No need to store products." }
+      },
+      {
+        "icone": "🌍",
+        "titulo":   { "pt": "Rede Global",              "fr": "Réseau Mondial",                "en": "Global Network" },
+        "descricao":{ "pt": "Sua rede pode se expandir por qualquer país onde a Atomy atua, como EUA, Brasil e Haiti.", "fr": "Votre réseau peut s'étendre dans n'importe quel pays où Atomy opère, comme les États-Unis, le Brésil et Haïti.", "en": "Your network can expand to any country where Atomy operates, such as the USA, Brazil and Haiti." }
+      }
+    ],
+    "passoAPasso": [
+      {
+        "numero": 1,
+        "titulo":   { "pt": "Seja Indicado por um Patrocinador",       "fr": "Être Parrainé par un Sponsor",          "en": "Be Referred by a Sponsor" },
+        "descricao":{ "pt": "Para se cadastrar na Atomy, você precisa de um patrocinador (upline). No seu caso, seu irmão no Haiti será seu patrocinador — você ficará na rede abaixo dele.", "fr": "Pour s'inscrire chez Atomy, vous avez besoin d'un parrain (upline). Dans votre cas, votre frère en Haïti sera votre parrain — vous serez positionné en dessous de lui.", "en": "To register at Atomy, you need a sponsor (upline). In your case, your brother in Haiti will be your sponsor — you will be positioned below him." },
+        "dica":     { "pt": "Sua irmã nos EUA já cadastrou sua mãe. Seu irmão está se inscrevendo agora e você será o próximo.", "fr": "Votre sœur aux États-Unis a déjà inscrit votre mère. Votre frère s'inscrit maintenant et vous serez le prochain.", "en": "Your sister in the USA has already registered your mother. Your brother is signing up now and you will be next." }
+      },
+      {
+        "numero": 2,
+        "titulo":   { "pt": "Faça o Cadastro Gratuito",                "fr": "Effectuez l'Inscription Gratuite",      "en": "Complete the Free Registration" },
+        "descricao":{ "pt": "Acesse o site oficial da Atomy no seu país (atomy.com/br para o Brasil) e preencha o formulário de cadastro. Você receberá um código internacional único — ele serve tanto para comprar quanto para empreender.", "fr": "Accédez au site officiel d'Atomy dans votre pays et remplissez le formulaire d'inscription. Vous recevrez un code international unique — il sert à la fois pour acheter et pour entreprendre.", "en": "Access the official Atomy website in your country and fill out the registration form. You will receive a unique international code — it serves both for purchasing and for entrepreneurship." },
+        "dica":     { "pt": "O processo é rápido e 100% online, sem custo algum.", "fr": "Le processus est rapide et 100% en ligne, sans aucun frais.", "en": "The process is fast and 100% online, at no cost." }
+      },
+      {
+        "numero": 3,
+        "titulo":   { "pt": "Faça sua Primeira Compra (10.000 PV)",    "fr": "Effectuez Votre Premier Achat (10 000 PV)", "en": "Make Your First Purchase (10,000 PV)" },
+        "descricao":{ "pt": "Adquira pelo menos 10.000 PV em produtos para ativar sua conta como Representante de Vendas e começar a receber comissões. Os produtos incluem cosméticos, suplementos, itens de higiene e muito mais.", "fr": "Achetez au moins 10 000 PV en produits pour activer votre compte en tant que Représentant des Ventes et commencer à recevoir des commissions. Les produits incluent des cosmétiques, des compléments alimentaires et bien plus.", "en": "Purchase at least 10,000 PV in products to activate your account as a Sales Representative and start receiving commissions. Products include cosmetics, supplements, hygiene items and much more." },
+        "dica":     { "pt": "10.000 PV equivale a algo como um shampoo ou creme facial. Os pontos pessoais são acumulativos e nunca expiram.", "fr": "10 000 PV correspond à quelque chose comme un shampooing ou une crème visage. Les points personnels sont cumulatifs et n'expirent jamais.", "en": "10,000 PV is equivalent to something like a shampoo or face cream. Personal points are cumulative and never expire." }
+      },
+      {
+        "numero": 4,
+        "titulo":   { "pt": "Indique Novos Membros (Construa a Rede)", "fr": "Référez de Nouveaux Membres (Construisez le Réseau)", "en": "Refer New Members (Build the Network)" },
+        "descricao":{ "pt": "O sistema da Atomy é binário: você tem uma perna esquerda e uma direita. Convide pessoas para a sua rede e posicione-as nos dois lados. Cada compra feita por qualquer pessoa na sua rede gera PV grupal que contribui para suas comissões.", "fr": "Le système Atomy est binaire : vous avez une branche gauche et une droite. Invitez des personnes dans votre réseau et positionnez-les des deux côtés. Chaque achat effectué dans votre réseau génère des PV groupaux qui contribuent à vos commissions.", "en": "Atomy's system is binary: you have a left leg and a right leg. Invite people to your network and position them on both sides. Every purchase made in your network generates group PV that contributes to your commissions." },
+        "dica":     { "pt": "Comece pela sua família: primo no Brasil, primo nos EUA, amigos próximos. Quanto mais equilibradas as duas pernas, maior será sua comissão geral.", "fr": "Commencez par votre famille : cousin au Brésil, cousin aux États-Unis, amis proches. Plus les deux branches sont équilibrées, plus votre commission sera élevée.", "en": "Start with your family: cousin in Brazil, cousin in the USA, close friends. The more balanced the two legs, the higher your general commission will be." }
+      },
+      {
+        "numero": 5,
+        "titulo":   { "pt": "Acumule PV e Suba de Nível",              "fr": "Accumulez des PV et Montez de Niveau",  "en": "Accumulate PV and Level Up" },
+        "descricao":{ "pt": "Ao acumular PV pessoal e grupal, você sobe nos níveis de classificação (de Representante de Vendas até Distribuidor Exclusivo) e depois conquista títulos de maestria.", "fr": "En accumulant des PV personnels et groupaux, vous montez dans les niveaux de classification (de Représentant des Ventes à Distributeur Exclusif) et conquérez ensuite des titres de maîtrise.", "en": "By accumulating personal and group PV, you rise through classification levels (from Sales Representative to Exclusive Distributor) and then earn mastership titles." },
+        "dica":     { "pt": "Os PV pessoais são acumulativos permanentes. Os PV grupais zeram a cada ciclo de comissão gerado.", "fr": "Les PV personnels sont cumulatifs en permanence. Les PV groupaux se réinitialisent à chaque cycle de commission.", "en": "Personal PV are permanently cumulative. Group PV reset with each commission cycle generated." }
+      },
+      {
+        "numero": 6,
+        "titulo":   { "pt": "Receba Suas Comissões",                   "fr": "Recevez Vos Commissions",               "en": "Receive Your Commissions" },
+        "descricao":{ "pt": "Existem dois tipos de comissão: a Comissão Geral (paga semanalmente com base no PV grupal balanceado entre as duas pernas) e o Bônus de Maestria (pago quinzenalmente para quem atingiu títulos de liderança).", "fr": "Il existe deux types de commission : la Commission Générale (payée hebdomadairement sur la base du PV groupal équilibré entre les deux branches) et le Bonus de Maîtrise (payé bimensuellement pour ceux qui ont atteint des titres de leadership).", "en": "There are two types of commission: the General Commission (paid weekly based on balanced group PV between the two legs) and the Mastership Bonus (paid biweekly for those who have achieved leadership titles)." },
+        "dica":     { "pt": "A comissão geral representa 44% do PV total da empresa. O bônus de maestria representa 20% do PV total.", "fr": "La commission générale représente 44% du PV total de l'entreprise. Le bonus de maîtrise représente 20% du PV total.", "en": "The general commission represents 44% of the company's total PV. The mastership bonus represents 20% of the total PV." }
+      }
+    ],
+    "sistemaPontos": {
+      "descricao": {
+        "pt": "Cada produto da Atomy possui um valor em pontos chamado PV (Point Value). Existem dois tipos de PV:",
+        "fr": "Chaque produit Atomy a une valeur en points appelée PV (Point Value). Il existe deux types de PV :",
+        "en": "Each Atomy product has a point value called PV (Point Value). There are two types of PV:"
+      },
+      "tipos": [
+        {
+          "nome":     { "pt": "PV Pessoal",  "fr": "PV Personnel", "en": "Personal PV" },
+          "descricao":{ "pt": "Pontos que você acumula com suas próprias compras. São permanentes (não expiram) e acumulam até 2.400.000 PV. Determinam seu nível de classificação.", "fr": "Points que vous accumulez avec vos propres achats. Ils sont permanents (n'expirent pas) et s'accumulent jusqu'à 2 400 000 PV. Ils déterminent votre niveau de classification.", "en": "Points you accumulate from your own purchases. They are permanent (never expire) and accumulate up to 2,400,000 PV. They determine your classification level." }
+        },
+        {
+          "nome":     { "pt": "PV Grupal",   "fr": "PV Groupal",   "en": "Group PV" },
+          "descricao":{ "pt": "Pontos gerados pelas compras de toda a sua rede (downline). São somados nas pernas esquerda e direita. A comissão é calculada com base na perna de menor pontuação no ciclo.", "fr": "Points générés par les achats de tout votre réseau (downline). Ils sont additionnés dans les branches gauche et droite. La commission est calculée sur la base de la branche ayant le moins de points dans le cycle.", "en": "Points generated by purchases from your entire network (downline). They are added up in the left and right legs. The commission is calculated based on the leg with the lowest score in the cycle." }
+        }
+      ]
+    },
+    "niveis": [
+      { "emoji":"🌱","cor":"#6b7280","pvMinimo":"10.000 PV","pvMaximo":"299.999 PV",
+        "titulo":   {"pt":"Representante de Vendas","fr":"Représentant des Ventes","en":"Sales Representative"},
+        "descricao":{"pt":"Primeiro nível ativo. Já recebe comissão geral diária.","fr":"Premier niveau actif. Reçoit déjà une commission générale quotidienne.","en":"First active level. Already receives daily general commission."} },
+      { "emoji":"📈","cor":"#3b82f6","pvMinimo":"300.000 PV","pvMaximo":"699.999 PV",
+        "titulo":   {"pt":"Agente","fr":"Agent","en":"Agent"},
+        "descricao":{"pt":"300k PV pessoal ou perna menor com 600k PV no mês anterior.","fr":"300k PV personnel ou branche inférieure avec 600k PV le mois précédent.","en":"300k personal PV or minor leg with 600k PV in the previous month."} },
+      { "emoji":"⭐","cor":"#8b5cf6","pvMinimo":"700.000 PV","pvMaximo":"1.499.999 PV",
+        "titulo":   {"pt":"Agente Especial","fr":"Agent Spécial","en":"Special Agent"},
+        "descricao":{"pt":"700k PV pessoal ou perna menor com 1,4M PV no mês anterior.","fr":"700k PV personnel ou branche inférieure avec 1,4M PV le mois précédent.","en":"700k personal PV or minor leg with 1.4M PV in the previous month."} },
+      { "emoji":"💫","cor":"#f59e0b","pvMinimo":"1.500.000 PV","pvMaximo":"2.399.999 PV",
+        "titulo":   {"pt":"Distribuidor","fr":"Distributeur","en":"Distributor"},
+        "descricao":{"pt":"1,5M PV pessoal ou perna menor com 3M PV no mês anterior.","fr":"1,5M PV personnel ou branche inférieure avec 3M PV le mois précédent.","en":"1.5M personal PV or minor leg with 3M PV in the previous month."} },
+      { "emoji":"🔥","cor":"#ef4444","pvMinimo":"2.400.000 PV","pvMaximo":"∞",
+        "titulo":   {"pt":"Distribuidor Exclusivo","fr":"Distributeur Exclusif","en":"Exclusive Distributor"},
+        "descricao":{"pt":"2,4M PV pessoal ou perna menor com 4,8M PV no mês anterior.","fr":"2,4M PV personnel ou branche inférieure avec 4,8M PV le mois précédent.","en":"2.4M personal PV or minor leg with 4.8M PV in the previous month."} }
+    ],
+    "maestrias": [
+      { "titulo":"Sales Master",     "cor":"#6366f1","ganhoEstimado":"~R$ 8.000/mês",
+        "bonus":    {"pt":"10% do PV total (entre todos os Sales Masters)","fr":"10% du PV total (divisé entre tous les Sales Masters)","en":"10% of total PV (shared among all Sales Masters)"},
+        "requisito":{"pt":"700k PV pessoal + 2,5M PV em cada perna","fr":"700k PV personnel + 2,5M PV dans chaque branche","en":"700k personal PV + 2.5M PV in each leg"},
+        "beneficios":{"pt":["Comissão quinzenal","Viagem de treinamento"],"fr":["Commission bimensuelle","Voyage de formation"],"en":["Biweekly commission","Training trip"]} },
+      { "titulo":"Diamond Master",   "cor":"#06b6d4","ganhoEstimado":"~R$ 20.000/mês",
+        "bonus":    {"pt":"5% do PV total da empresa","fr":"5% du PV total de l'entreprise","en":"5% of the company's total PV"},
+        "requisito":{"pt":"1,5M PV pessoal + 2 Sales Masters em cada perna","fr":"1,5M PV personnel + 2 Sales Masters dans chaque branche","en":"1.5M personal PV + 2 Sales Masters in each leg"},
+        "beneficios":{"pt":["Comissão quinzenal","Viagem internacional (R$ 4.500/pessoa)"],"fr":["Commission bimensuelle","Voyage international (R$ 4 500/personne)"],"en":["Biweekly commission","International trip (R$ 4,500/person)"]} },
+      { "titulo":"Sharon Rose Master","cor":"#ec4899","ganhoEstimado":"~R$ 35.000/mês",
+        "bonus":    {"pt":"2% do PV total da empresa","fr":"2% du PV total de l'entreprise","en":"2% of the company's total PV"},
+        "requisito":{"pt":"2,4M PV pessoal + 2 Diamond Masters em cada perna","fr":"2,4M PV personnel + 2 Diamond Masters dans chaque branche","en":"2.4M personal PV + 2 Diamond Masters in each leg"},
+        "beneficios":{"pt":["Comissão quinzenal","Viagem internacional","Locação de veículo (R$ 5.000/mês)"],"fr":["Commission bimensuelle","Voyage international","Location de véhicule (R$ 5 000/mois)"],"en":["Biweekly commission","International trip","Vehicle lease (R$ 5,000/month)"]} },
+      { "titulo":"Star Master",      "cor":"#f59e0b","ganhoEstimado":"~R$ 80.000/mês",
+        "bonus":    {"pt":"1,2% do PV total da empresa","fr":"1,2% du PV total de l'entreprise","en":"1.2% of the company's total PV"},
+        "requisito":{"pt":"2 Sharon Rose Masters em cada perna","fr":"2 Sharon Rose Masters dans chaque branche","en":"2 Sharon Rose Masters in each leg"},
+        "beneficios":{"pt":["Comissão quinzenal","Viagem internacional","Locação de veículo","Escritório (R$ 12.500/mês)"],"fr":["Commission bimensuelle","Voyage international","Location de véhicule","Bureau (R$ 12 500/mois)"],"en":["Biweekly commission","International trip","Vehicle lease","Office (R$ 12,500/month)"]} },
+      { "titulo":"Royal Master",     "cor":"#10b981","ganhoEstimado":"~R$ 160.000/mês",
+        "bonus":    {"pt":"1% do PV total da empresa","fr":"1% du PV total de l'entreprise","en":"1% of the company's total PV"},
+        "requisito":{"pt":"2 Star Masters em cada perna","fr":"2 Star Masters dans chaque branche","en":"2 Star Masters in each leg"},
+        "beneficios":{"pt":["Comissão quinzenal","Viagem (R$ 20.000/pessoa)","Veículo médio porte","Secretária + motorista"],"fr":["Commission bimensuelle","Voyage (R$ 20 000/personne)","Véhicule de taille moyenne","Secrétaire + chauffeur"],"en":["Biweekly commission","Trip (R$ 20,000/person)","Mid-size vehicle","Secretary + driver"]} },
+      { "titulo":"Crown Master",     "cor":"#f97316","ganhoEstimado":"~R$ 320.000/mês",
+        "bonus":    {"pt":"0,3% do PV total","fr":"0,3% du PV total","en":"0.3% of total PV"},
+        "requisito":{"pt":"2 Royal Masters em cada perna","fr":"2 Royal Masters dans chaque branche","en":"2 Royal Masters in each leg"},
+        "beneficios":{"pt":["Todos os anteriores","Veículo de R$ 320.000"],"fr":["Tous les précédents","Véhicule de R$ 320 000"],"en":["All previous benefits","R$ 320,000 vehicle"]} },
+      { "titulo":"Imperial Master",  "cor":"#dc2626","ganhoEstimado":"~R$ 400.000/mês",
+        "bonus":    {"pt":"0,2% do PV total","fr":"0,2% du PV total","en":"0.2% of total PV"},
+        "requisito":{"pt":"2 Crown Masters em cada perna","fr":"2 Crown Masters dans chaque branche","en":"2 Crown Masters in each leg"},
+        "beneficios":{"pt":["Todos os anteriores","Veículo de R$ 390.000","Topo máximo da carreira"],"fr":["Tous les précédents","Véhicule de R$ 390 000","Sommet maximal de la carrière"],"en":["All previous benefits","R$ 390,000 vehicle","Maximum career peak"]} }
+    ],
+    "comissoes": {
+      "geral": {
+        "nome":       {"pt":"Comissão Geral (Diária)","fr":"Commission Générale (Quotidienne)","en":"General Commission (Daily)"},
+        "percentual": {"pt":"44% do PV total da empresa","fr":"44% du PV total de l'entreprise","en":"44% of the company's total PV"},
+        "frequencia": {"pt":"Paga semanalmente (ciclo de qua a ter)","fr":"Payée hebdomadairement (cycle mer au mar)","en":"Paid weekly (cycle Wed to Tue)"},
+        "como":       {"pt":"Calculada com base no PV da perna de menor pontuação (perna fraca). Quanto mais equilibradas as pernas, maior a comissão.","fr":"Calculée sur la base du PV de la branche avec le moins de points. Plus les branches sont équilibrées, plus la commission est élevée.","en":"Calculated based on the PV of the leg with the lowest score (weak leg). The more balanced the legs, the higher the commission."},
+        "exemplo":    {"pt":"Se sua perna esquerda gerou 50.000 PV e a direita 80.000 PV no ciclo, a comissão é baseada nos 50.000 PV (perna menor).","fr":"Si votre branche gauche a généré 50 000 PV et la droite 80 000 PV dans le cycle, la commission est basée sur les 50 000 PV (branche inférieure).","en":"If your left leg generated 50,000 PV and the right leg 80,000 PV in the cycle, the commission is based on the 50,000 PV (minor leg)."}
+      },
+      "maestria": {
+        "nome":       {"pt":"Bônus de Maestria (Quinzenal)","fr":"Bonus de Maîtrise (Bimensuel)","en":"Mastership Bonus (Biweekly)"},
+        "percentual": {"pt":"20% do PV total da empresa","fr":"20% du PV total de l'entreprise","en":"20% of the company's total PV"},
+        "frequencia": {"pt":"Pago quinzenalmente (dia 15 e último dia do mês)","fr":"Payé bimensuellement (le 15 et le dernier jour du mois)","en":"Paid biweekly (15th and last day of the month)"},
+        "como":       {"pt":"Dividido proporcionalmente entre todos os membros que atingiram títulos de maestria. Quanto mais alto o título, maior o percentual recebido.","fr":"Divisé proportionnellement entre tous les membres ayant atteint des titres de maîtrise. Plus le titre est élevé, plus le pourcentage reçu est important.","en":"Divided proportionally among all members who have achieved mastership titles. The higher the title, the greater the percentage received."},
+        "exemplo":    {"pt":"Um Sales Master recebe 10% da fatia dos 20% totais, divididos entre todos os Sales Masters ativos.","fr":"Un Sales Master reçoit 10% de la part des 20% totaux, divisés entre tous les Sales Masters actifs.","en":"A Sales Master receives 10% of the 20% total slice, divided among all active Sales Masters."}
+      }
+    },
+    "familia": {
+      "descricao": {
+        "pt":"Veja como sua rede familiar está estruturada no sistema binário da Atomy. Cada pessoa posicionada abaixo contribui com PV grupal para quem está acima.",
+        "fr":"Voyez comment votre réseau familial est structuré dans le système binaire d'Atomy. Chaque personne positionnée en dessous contribue avec des PV groupaux à ceux qui sont au-dessus.",
+        "en":"See how your family network is structured in Atomy's binary system. Each person positioned below contributes group PV to those above."
+      },
+      "membros": [
+        { "id":"irma",
+          "nome":     {"pt":"Sua Irmã",       "fr":"Votre Sœur",    "en":"Your Sister"},
+          "pais": "🇺🇸 USA",
+          "nivel":    {"pt":"Patrocinadora / Upline","fr":"Parrainer / Upline","en":"Sponsor / Upline"},
+          "status": "Ativa",
+          "descricao":{"pt":"Já está na rede e cadastrou sua mãe. É a responsável por iniciar a família na Atomy.","fr":"Elle est déjà dans le réseau et a inscrit votre mère. Elle est responsable du démarrage de la famille chez Atomy.","en":"Already in the network and registered your mother. She is responsible for starting the family at Atomy."},
+          "cor":"#8b5cf6" },
+        { "id":"mae",
+          "nome":     {"pt":"Sua Mãe",        "fr":"Votre Mère",    "en":"Your Mother"},
+          "pais": "🇺🇸 USA",
+          "nivel":    {"pt":"Membro Ativo",   "fr":"Membre Actif",  "en":"Active Member"},
+          "status": "Ativa",
+          "descricao":{"pt":"Foi cadastrada pela irmã. Sua rede também contribui com PV grupal para a irmã.","fr":"Elle a été inscrite par la sœur. Son réseau contribue également avec des PV groupaux à la sœur.","en":"Was registered by the sister. Her network also contributes group PV to the sister."},
+          "cor":"#ec4899" },
+        { "id":"irmao",
+          "nome":     {"pt":"Seu Irmão",      "fr":"Votre Frère",   "en":"Your Brother"},
+          "pais": "🇭🇹 Haiti",
+          "nivel":    {"pt":"Entrando na rede","fr":"Rejoindre le réseau","en":"Joining the network"},
+          "status": "Em inscrição",
+          "descricao":{"pt":"Está se inscrevendo agora. Será seu patrocinador direto — você ficará abaixo dele.","fr":"Il s'inscrit maintenant. Il sera votre parrain direct — vous serez en dessous de lui.","en":"Currently signing up. Will be your direct sponsor — you will be positioned below him."},
+          "cor":"#0ea5e9" },
+        { "id":"voce",
+          "nome":     {"pt":"Você",           "fr":"Vous",          "en":"You"},
+          "pais": "🇧🇷 Brasil",
+          "nivel":    {"pt":"Próximo a entrar","fr":"Prochain à rejoindre","en":"Next to join"},
+          "status": "Em breve",
+          "descricao":{"pt":"Será patrocinado pelo seu irmão. Depois de entrar, poderá cadastrar seu primo no Brasil e no EUA.","fr":"Vous serez parrainé par votre frère. Après avoir rejoint, vous pourrez inscrire votre cousin au Brésil et aux États-Unis.","en":"Will be sponsored by your brother. After joining, you can register your cousin in Brazil and the USA."},
+          "cor":"#10b981" },
+        { "id":"primo_br",
+          "nome":     {"pt":"Primo (Brasil)", "fr":"Cousin (Brésil)","en":"Cousin (Brazil)"},
+          "pais": "🇧🇷 Brasil",
+          "nivel":    {"pt":"Potencial",      "fr":"Potentiel",      "en":"Potential"},
+          "status": "Futuro",
+          "descricao":{"pt":"Pode ser convidado para entrar na sua perna esquerda ou direita após seu cadastro.","fr":"Peut être invité à rejoindre votre branche gauche ou droite après votre inscription.","en":"Can be invited to join your left or right leg after your registration."},
+          "cor":"#f59e0b" },
+        { "id":"primo_eua",
+          "nome":     {"pt":"Primo (EUA)",    "fr":"Cousin (USA)",   "en":"Cousin (USA)"},
+          "pais": "🇺🇸 USA",
+          "nivel":    {"pt":"Potencial",      "fr":"Potentiel",      "en":"Potential"},
+          "status": "Futuro",
+          "descricao":{"pt":"Outro contato potencial para expandir sua rede internacional.","fr":"Un autre contact potentiel pour élargir votre réseau international.","en":"Another potential contact to expand your international network."},
+          "cor":"#f59e0b" }
+      ]
+    },
+    "produtos": [
+      { "emoji":"💄","categoria":{"pt":"Cosméticos",         "fr":"Cosmétiques",          "en":"Cosmetics"},         "exemplos":{"pt":"Creme facial, sérum, protetor solar",   "fr":"Crème visage, sérum, écran solaire",  "en":"Face cream, serum, sunscreen"} },
+      { "emoji":"🧴","categoria":{"pt":"Cuidados Pessoais",  "fr":"Soins Personnels",     "en":"Personal Care"},     "exemplos":{"pt":"Shampoo, pasta de dente, sabonete",    "fr":"Shampooing, dentifrice, savon",       "en":"Shampoo, toothpaste, soap"} },
+      { "emoji":"💊","categoria":{"pt":"Saúde & Suplementos","fr":"Santé & Compléments",  "en":"Health & Supplements"},"exemplos":{"pt":"HemoHim+, vitaminas, probióticos",   "fr":"HemoHim+, vitamines, probiotiques",  "en":"HemoHim+, vitamins, probiotics"} },
+      { "emoji":"🏠","categoria":{"pt":"Produtos do Lar",    "fr":"Produits Ménagers",    "en":"Home Products"},     "exemplos":{"pt":"Detergente, sabão em pó, limpadores", "fr":"Détergent, lessive, nettoyants",     "en":"Detergent, laundry powder, cleaners"} },
+      { "emoji":"🍵","categoria":{"pt":"Alimentos & Bebidas","fr":"Aliments & Boissons",  "en":"Food & Beverages"},  "exemplos":{"pt":"Chá, café, barras nutricionais",       "fr":"Thé, café, barres nutritionnelles",  "en":"Tea, coffee, nutrition bars"} },
+      { "emoji":"👗","categoria":{"pt":"Moda & Acessórios",  "fr":"Mode & Accessoires",   "en":"Fashion & Accessories"},"exemplos":{"pt":"Roupas e acessórios de qualidade",  "fr":"Vêtements et accessoires de qualité","en":"Quality clothing and accessories"} }
+    ]
+  }
+}
