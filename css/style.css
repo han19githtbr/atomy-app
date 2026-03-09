@@ -28,7 +28,7 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
-body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; overflow-x: hidden; }
+body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; overflow-x: clip; }
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 3px; }
@@ -176,17 +176,17 @@ section.visible { opacity:1;transform:none; }
 
 /* ── SIMULATOR SECTION ── */
 #simulador { padding:64px 0; }
-.sim-layout { display:grid;grid-template-columns:340px 1fr;gap:24px;align-items:start; }
+.sim-layout { display:grid;grid-template-columns:340px 1fr;gap:24px;align-items:start;min-width:0; }
 @media(max-width:900px){.sim-layout{grid-template-columns:1fr;}}
 
 /* ── PANEL ── */
-.sim-panel { background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:24px;display:flex;flex-direction:column;gap:20px;position:sticky;top:90px; }
+.sim-panel { background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:24px;display:flex;flex-direction:column;gap:20px;position:sticky;top:90px;min-width:0;width:100%;box-sizing:border-box; }
 .sim-panel-title { font-family:'Syne',sans-serif;font-weight:700;font-size:1rem;margin-bottom:2px; }
 .sim-panel-sub { font-size:.78rem;color:var(--text3); }
 
 /* Perspective selector */
 .persp-label { font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--text3);margin-bottom:8px; }
-.persp-select { width:100%;background:var(--bg4);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-family:'DM Sans',sans-serif;font-size:.88rem;padding:10px 14px;cursor:pointer;outline:none;transition:border-color .2s; }
+.persp-select { width:100%;max-width:100%;background:var(--bg4);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-family:'DM Sans',sans-serif;font-size:.88rem;padding:10px 14px;cursor:pointer;outline:none;transition:border-color .2s; }
 .persp-select:focus { border-color:var(--accent); }
 .persp-select option { background:var(--bg4); }
 
@@ -302,9 +302,174 @@ footer span { color:var(--accent3); }
 @keyframes pulse { 0%,100%{opacity:1;}50%{opacity:.6;} }
 .pulse { animation:pulse 2s infinite; }
 
-/* ── RESPONSIVE ── */
+/* ══════════════════════════════════════════
+   RESPONSIVE — MOBILE FIRST
+══════════════════════════════════════════ */
+
+/* ── Tablet (≤ 900px) ── */
+@media(max-width:900px){
+
+  /* Header */
+  header { padding:90px 16px 50px; }
+  header h1 { font-size:clamp(1.8rem,6vw,3rem); }
+  header p.subtitle { font-size:.9rem; }
+
+  /* Nav */
+  nav { top:32px; }
+  .nav-inner { gap:0; }
+  .nav-btn { padding:12px 12px;font-size:.78rem; }
+
+  /* Sections */
+  section { padding:48px 0; }
+  .section-title { font-size:clamp(1.3rem,4vw,1.8rem); }
+
+  /* Simulator: stack panels */
+  .sim-layout { grid-template-columns:1fr; }
+  .sim-panel { position:static; }
+
+  /* Niveis */
+  .nivel-item { grid-template-columns:36px 1fr auto; gap:10px; padding:14px 16px; }
+}
+
+/* ── Phablet (≤ 680px) ── */
+@media(max-width:680px){
+
+  /* Lang bar */
+  .lang-bar { padding:5px 12px; gap:4px; }
+  .lang-btn { font-size:.68rem; padding:4px 10px; }
+
+  /* Header */
+  header { padding:80px 14px 44px; }
+  header h1 { font-size:clamp(1.6rem,7vw,2.4rem); }
+  .badge { font-size:.68rem; padding:5px 13px; }
+  .header-stats { flex-wrap:wrap; gap:8px; }
+  .stat-pill { font-size:.75rem; padding:6px 14px; }
+
+  /* Main padding */
+  main { padding:0 14px 60px; }
+
+  /* Empresa */
+  .empresa-grid { grid-template-columns:1fr; }
+  .empresa-card { padding:20px 18px; }
+
+  /* Diferenciais */
+  .diff-grid { grid-template-columns:1fr 1fr; gap:10px; }
+  .diff-card { padding:18px 14px; }
+
+  /* Passos */
+  .step { grid-template-columns:52px 1fr; gap:0 14px; }
+  .step-num { width:38px; height:38px; font-size:.88rem; }
+  .step-content { padding:0 0 32px; }
+
+  /* Pontos */
+  .pontos-grid { grid-template-columns:1fr; }
+
+  /* Níveis */
+  .nivel-item { grid-template-columns:36px 1fr; padding:12px 14px; }
+  .nivel-pv { grid-column:2; text-align:left; }
+  .nivel-name { font-size:.9rem; }
+
+  /* Maestrias */
+  .maestrias-grid { grid-template-columns:1fr; }
+
+  /* Comissões */
+  .comissoes-grid { grid-template-columns:1fr; }
+  .comissao-card { padding:20px 18px; }
+  .comissao-pct { font-size:1.5rem; }
+
+  /* Simulator panel */
+  .sim-panel { padding:18px 16px; }
+  .earnings-grid { grid-template-columns:1fr 1fr; }
+  .legs-info { grid-template-columns:1fr 1fr; }
+
+  /* Tree toolbar */
+  .tree-toolbar { flex-direction:column; align-items:flex-start; gap:8px; }
+  .tree-toolbar-left { flex-wrap:wrap; }
+
+  /* Members list */
+  .member-row { padding:8px 10px; gap:8px; }
+  .mrow-name { font-size:.8rem; }
+  .mrow-meta { font-size:.68rem; }
+
+  /* Products */
+  .produtos-grid { grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:10px; }
+
+  /* Toast */
+  .toast { right:12px; bottom:12px; left:12px; max-width:none; font-size:.82rem; }
+}
+
+/* ── Mobile (≤ 480px) ── */
 @media(max-width:480px){
-  .maestrias-grid{grid-template-columns:1fr;}
-  .header-stats{flex-direction:column;align-items:center;}
-  .form-row{grid-template-columns:1fr;}
+
+  /* Lang bar */
+  .lang-bar { justify-content:center; }
+
+  /* Header */
+  header { padding:72px 12px 40px; }
+  header h1 { font-size:clamp(1.4rem,8vw,2rem); }
+  header p.subtitle { font-size:.84rem; margin-top:12px; }
+  .header-stats { flex-direction:column; align-items:stretch; }
+  .stat-pill { justify-content:center; }
+
+  /* Main */
+  main { padding:0 12px 48px; }
+
+  /* Section headers */
+  .section-header { margin-bottom:28px; }
+  .section-title { font-size:1.3rem; }
+  .section-desc { font-size:.82rem; }
+
+  /* Empresa */
+  .empresa-logo { font-size:1.5rem; }
+  .info-list li .label { min-width:80px; }
+
+  /* Diferenciais — single column on very small screens */
+  .diff-grid { grid-template-columns:1fr; }
+
+  /* Passos */
+  .step { grid-template-columns:44px 1fr; gap:0 10px; }
+  .step-num { width:34px; height:34px; font-size:.82rem; }
+  .step-dica { font-size:.75rem; padding:8px 10px; }
+
+  /* Níveis */
+  .nivel-item { flex-direction:column; display:flex; gap:6px; padding:14px; }
+  .nivel-emoji { font-size:1.3rem; }
+  .nivel-pv { text-align:left; }
+
+  /* Maestrias */
+  .maestria-card { padding:18px 16px; }
+  .maestria-ganho { font-size:1.1rem; }
+
+  /* Comissões */
+  .comissao-row { flex-direction:column; gap:2px; }
+  .comissao-row .ck { min-width:unset; }
+
+  /* Simulator */
+  .sim-panel { padding:16px 14px; gap:16px; }
+  .sim-panel-title { font-size:.92rem; }
+  .pv-slider-header { flex-wrap:wrap; gap:4px; }
+
+  /* Form */
+  .form-row { grid-template-columns:1fr; }
+  .add-form { gap:8px; }
+  .sim-input, .sim-select { font-size:.82rem; padding:8px 10px; }
+  .sim-btn { font-size:.82rem; padding:10px 14px; }
+
+  /* Earnings */
+  .earnings-grid { grid-template-columns:1fr; }
+  .earn-card.total { grid-column:1; }
+  .legs-info { grid-template-columns:1fr; }
+  .earnings-panel { padding:18px 14px !important; }
+  .earn-value { font-size:1.2rem; }
+  .earnings-avatar { width:38px; height:38px; font-size:.88rem; }
+
+  /* Tree */
+  .tree-svg-wrap { padding:12px; }
+  #btn-reset { font-size:.72rem; padding:7px 12px; }
+
+  /* Products */
+  .produtos-grid { grid-template-columns:1fr 1fr; }
+
+  /* Footer */
+  footer { padding:24px 12px; font-size:.72rem; }
 }
