@@ -379,8 +379,8 @@ function renderEarnings() {
   if (!member) return;
   const T = tr();
   const e = calcEarnings(ACTIVE_MEMBER_ID, NETWORK, PV_PER_MEMBER);
-  const fmtBRL = v => 'R$ ' + Math.round(v).toLocaleString('pt-BR');
-  const fmtPV  = v => v.toLocaleString('pt-BR') + ' PV';
+  const fmtBRL = v => '$ ' + Math.round(v).toLocaleString('en-US');
+  const fmtPV  = v => v.toLocaleString('en-US') + ' PV';
   const levelName = tl(e.level.name);
 
   document.getElementById('earnings-panel').innerHTML = `
@@ -396,12 +396,12 @@ function renderEarnings() {
       <div class="leg-card">
         <div class="leg-label">${T.leftLeg}</div>
         <div class="leg-val">${fmtPV(e.leftPV)}</div>
-        <div class="leg-count">${NETWORK.filter(m=>m.sponsorId===member.id&&m.leg==='left').length + getDescendants(NETWORK.find(m=>m.sponsorId===member.id&&m.leg==='left')?.id||'__', NETWORK).length} membros</div>
+        <div class="leg-count">${NETWORK.filter(m=>m.sponsorId===member.id&&m.leg==='left').length + getDescendants(NETWORK.find(m=>m.sponsorId===member.id&&m.leg==='left')?.id||'__', NETWORK).length} ${LANG==='fr'?'membre(s)':LANG==='en'?'member(s)':'membro(s)'}</div>
       </div>
       <div class="leg-card">
         <div class="leg-label">${T.rightLeg}</div>
         <div class="leg-val">${fmtPV(e.rightPV)}</div>
-        <div class="leg-count">${NETWORK.filter(m=>m.sponsorId===member.id&&m.leg==='right').length + getDescendants(NETWORK.find(m=>m.sponsorId===member.id&&m.leg==='right')?.id||'__', NETWORK).length} membros</div>
+        <div class="leg-count">${NETWORK.filter(m=>m.sponsorId===member.id&&m.leg==='right').length + getDescendants(NETWORK.find(m=>m.sponsorId===member.id&&m.leg==='right')?.id||'__', NETWORK).length} ${LANG==='fr'?'membre(s)':LANG==='en'?'member(s)':'membro(s)'}</div>
       </div>
     </div>
 
@@ -414,7 +414,7 @@ function renderEarnings() {
       <div class="earn-card monthly">
         <div class="earn-label">${T.monthly}</div>
         <div class="earn-value up">${fmtBRL(e.monthlyCommission)}</div>
-        <div class="earn-sub">× 4 semanas</div>
+        <div class="earn-sub">${LANG==='fr'?'× 4 semaine(s)':LANG==='en'?'× 4 week(s)':'× 4 semana(s)'}</div>
       </div>
       <div class="earn-card total">
         <div class="earn-label">${T.annual}</div>
