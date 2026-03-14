@@ -2,7 +2,7 @@
    GLOBALS
 ═══════════════════════════════════════════════ */
 let DATA = null;
-let LANG = 'pt';
+let LANG = 'fr';
 let ACTIVE_MEMBER_ID = 'handy'; // current perspective
 let PV_PER_MEMBER = 10000;      // simulated monthly PV per person
 
